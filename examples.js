@@ -172,7 +172,7 @@ shape(5,0.5,0.1).repeat(19,19)
       description: "Rotate texture.",
       example: [
          {
-            code: `osc(50).rotate( () => time%360 ).out(o0)`,
+            code: `osc(50).rotate(0,2).out()`,
             comments: {
                en: "constant rotation",
                es: "rotación constante",
