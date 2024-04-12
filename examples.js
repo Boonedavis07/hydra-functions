@@ -46,7 +46,7 @@ noise( () => Math.sin(time/10)*50 , () => Math.sin(time/2)/500 )
    osc: {
       example: [
          {
-            code: `osc( [1,10,50,100,250,500].fast(2) ).out(o0)`,
+            code: `osc(8,0.2,20).kaleid().out(o0)`,
             comments: {
                en: "frequency",
                es: "frecuencia",
