@@ -232,6 +232,14 @@ shape().scale(1.5,[0.25,0.5,0.75,1].fast(0.25),[3,2,1])
             }
          },
          {
+            code: `noise().pixelate(200,3).out()`,
+            comments: {
+               en: "",
+               es: "",
+               ja: "",
+            }
+         },
+         {
             code: `noise().pixelate(2000,1).out(o0)`,
             comments: {
                en: "",
