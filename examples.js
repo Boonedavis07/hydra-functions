@@ -159,6 +159,14 @@ shape(5,0.5,0.1).repeat(19,19)
    solid: {
       example: [
          {
+         code: `solid(1,0,0,1).out(o0)`,
+            comments: {
+               en: "",
+               es: "",
+               ja: "",
+            }
+         },
+         {
             code: `solid([1,0,0],[0,1,0],[0,0,1],1).out(o0)`,
             comments: {
                en: "cycling through red, green and blue",
