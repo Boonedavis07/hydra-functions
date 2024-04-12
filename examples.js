@@ -30,7 +30,7 @@ noise( () => Math.sin(time/10)*50 , () => Math.sin(time/2)/500 )
             comments: {
                en: "default",
                es: "default",
-               ja: "デフォルト",
+               ja: デフォルト",
             }
          },
          {
