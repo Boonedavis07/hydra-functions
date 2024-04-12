@@ -90,7 +90,7 @@ noise( () => Math.sin(time/10)*50 , () => Math.sin(time/2)/500 )
             }
          },
          {
-            code: `shape(100,0.5,0.001).out(o0)`,
+            code: `shape(100,0.5,0.1).out()`,
             comments: {
                en: "ellipse",
                es: "elipse",
