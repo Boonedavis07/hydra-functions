@@ -1087,23 +1087,11 @@ noise(3,0.1)
       description: "Shift HSV values.",
       example: [
          {
-            code: `
-osc(20)
-  .color([1,0,0,1,0],[0,1,0,1,0],[0,0,1,1,0])
-  .colorama([0.005,0.33,0.66,1.0].fast(0.125))
-  .out(o0)`,
+            code: `osc(20).colorama(.01).out(o0)`,
             comments: {
-               en: `
-// 20Hz oscillator source
-// color sequence of Red, Green, Blue, White, Black
-// colorama sequence of 0.005, 0.5, 1.0 at 1/8 speed
-// output to buffer o0`,
-               es: `
-// oscilador de 20Hz
-// secuencia de color que cambia entre rojo, verde, azul, blanco y negro
-// secuencia de colorama de 0.005, 0.5, 1.0 a un octavo de velocidad
-// salida al buffer o0`,
-               ja: "デフォルト",
+               en: "",
+               es: "",
+               ja: "",
             }
          },
          {
