@@ -429,7 +429,7 @@ shape(4,0.9)
       description: "Kaleidoscope effect with `nSides` repetition.",
       example: [
          {
-            code: `osc(25,-0.1,0.5).kaleid(50).out(o0)`,
+            code: `osc().kaleid(3).out()`,
             comments: {
                en: "default",
                es: "default",
